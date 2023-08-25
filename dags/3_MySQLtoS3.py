@@ -28,7 +28,7 @@ dag = DAG(
 # Define the task
 mysql_to_s3_task = SqlToS3Operator(
     task_id='mysql_to_s3_employee_task',
-    query='SELECT * FROM employees',
+    query='SELECT * FROM employees_yj',
     sql_conn_id='AWS_RDB',  # Replace with your MySQL connection ID
     aws_conn_id='AWS_S3',        # Replace with your AWS connection ID
     s3_bucket='woori-fisa',           # Replace with your S3 bucket name
