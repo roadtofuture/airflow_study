@@ -14,7 +14,7 @@ init_args = {
 }
 
 def print_world() -> None:
-    print("world")
+    print("world 2")
 
 # 1) DAG 대표하는 객체를 먼저 만들기
 with DAG(
